@@ -1,2 +1,2 @@
 # website
-no a website
+not a website
