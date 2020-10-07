@@ -1,8 +1,4 @@
 /*-------------------------------------------------------------------
-    File Name: style.css
--------------------------------------------------------------------*/
-
-/*-------------------------------------------------------------------
     1.import file
 -------------------------------------------------------------------*/
 
@@ -1024,7 +1020,7 @@ div.tab button.active,
 }
 
 .withbg {
-    background: rgba(0, 0, 0, 0) url("images/slider_bg.png") no-repeat scroll center bottom;
+    /*background: rgba(0, 0, 0, 0) url("images/slider_bg.png") no-repeat scroll center bottom;*/
     height: 245px;
     position: absolute;
     top: 30px;
@@ -1328,7 +1324,7 @@ header .main_menu .nav-item.active a.nav-link {
 
 .site_information ul + ul {
     margin-top: 5px;
-
+}
 
 .site_information ul li {
     margin-left: 0;
@@ -1623,7 +1619,7 @@ header .main_menu .nav-item.active a.nav-link {
 }
 
 .pettr {
-    background-image: url(images/yellow_pettr.png);
+    /*background-image: url(images/yellow_pettr.png);*/
     background-position: center center;
 }
 
@@ -2157,7 +2153,7 @@ p.large_1 {
 
 .dmtop {
     background-color: #111428;
-    background-image: url(images/arrow.png);
+    /*background-image: url(images/arrow.png);*/
     background-position: 50% 50%;
     background-repeat: no-repeat;
     z-index: 9999;
@@ -2489,7 +2485,7 @@ p.large_1 {
 }
 
 .pricing-box-03::before {
-    background: rgba(0, 0, 0, 0) url("images/right.png") no-repeat scroll 0 0;
+    /*background: rgba(0, 0, 0, 0) url("images/right.png") no-repeat scroll 0 0;*/
     content: "";
     display: inline-block;
     height: 233px;
@@ -2501,7 +2497,7 @@ p.large_1 {
 }
 
 .pricing-box-03.leftbg::after {
-    background: rgba(0, 0, 0, 0) url("images/left.png") no-repeat scroll 0 0;
+    /*background: rgba(0, 0, 0, 0) url("images/left.png") no-repeat scroll 0 0;*/
     content: "";
     display: inline-block;
     height: 233px;
@@ -2869,11 +2865,11 @@ ol.workinghours li span,
 }
 
 .slider1 {
-    background: url("images/slider1.png");
+    /*background: url("images/slider1.png");*/
 }
 
 .slider2 {
-    background: url("images/slider1.png");
+    /*background: url("images/slider1.png");*/
 }
 
 .slider_inner h4 {
@@ -3054,7 +3050,7 @@ h4.font_themecolor {
 }
 
 .counter_section {
-    background-image: url('images/dark_bg1.png');
+    /*background-image: url('images/dark_bg1.png');*/
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -3281,7 +3277,7 @@ h4.font_themecolor {
 #testimonial_slider::after {
     width: 74px;
     height: 68px;
-    background: url('images/bottom_arrow.png');
+    /*background: url('images/bottom_arrow.png');*/
     position: absolute;
     bottom: -68px;
     content: "";
@@ -3450,7 +3446,9 @@ h3.price_tag {
 
 .footer_logo {
     margin-bottom: 20px;
+    width: 200px;
 }
+
 
 .footer_blog1 p {
     color: #f8fdfe;
@@ -3695,7 +3693,7 @@ h3.price_tag {
 /**-------------------- testimonial page --------------------**/
 
 .testimonial_qoute {
-    background: url(images/yellow_pettr.png);
+    /*background: url(images/yellow_pettr.png);*/
     background-color: #feb61a;
     padding: 49px;
     background-size: auto;
@@ -3704,7 +3702,7 @@ h3.price_tag {
 }
 
 .testimonial_qoute {
-    background: url(images/yellow_pettr.png);
+    /*background: url("images/yellow_pettr.png");*/
     background-color: #feb61a;
     padding: 50px 50px 50px 75px;
     background-size: auto;
@@ -3805,7 +3803,7 @@ h3.price_tag {
     content: "";
     display: block;
     position: absolute;
-    background: url('images/icon_head.png');
+    /*background: url('images/icon_head.png');*/
     left: 25px;
     top: 22px;
     opacity: 1;
@@ -3879,7 +3877,7 @@ h3.price_tag {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('images/error_bg.png');
+    /*background-image: url('images/error_bg.png');*/
     background-size: cover;
     background-position: top right;
 }
