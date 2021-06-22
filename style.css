@@ -2967,10 +2967,9 @@ h4.font_themecolor {
 }
 
 .heading_s1 h2::first-letter {
-    color: #72dd78;
+    color: #000000;
     font-size: 100px;
-    font-weight: 700;
-}
+ }
 
 .page_title h2::first-letter {
     font-size: 80px;   
