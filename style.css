@@ -126,6 +126,11 @@ ol,
 ul {
     list-style: none;
     margin: 0;
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: normal;
+    color: #444;
+    font-weight: 300;
 }
 
 a {
