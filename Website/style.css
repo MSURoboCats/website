@@ -126,6 +126,11 @@ ol,
 ul {
     list-style: none;
     margin: 0;
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: normal;
+    color: #444;
+    font-weight: 300;
 }
 
 a {
@@ -2967,10 +2972,9 @@ h4.font_themecolor {
 }
 
 .heading_s1 h2::first-letter {
-    color: #72dd78;
+    color: #000000;
     font-size: 100px;
-    font-weight: 700;
-}
+ }
 
 .page_title h2::first-letter {
     font-size: 80px;   
@@ -4579,5 +4583,4 @@ form#commant_form div.field textarea.custom_field {
     text-transform: uppercase;
     margin-top: 20px;
 }
-
 
