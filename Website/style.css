@@ -770,12 +770,12 @@ form#commant_form div.field textarea.custom_field {
     font-weight: 500;
     margin-bottom: 20px;
 }
-
+/* commented out, no longer being used as header background images
 body#inner_page header.header {
     background-image: url('images/slider_img.png');
     background-size: 100% auto;
     position: relative;
-}
+}*/
 
 .blue_pattern_bg {
     background-image: url('images/blue_bg.png');
