@@ -686,8 +686,6 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .time_table {
-    background: rgba(255,255,255,.85);
-    margin-top: 110px;
     min-height: 560px;
     padding: 30px;
 }
@@ -724,14 +722,12 @@ form#commant_form div.field textarea.custom_field {
 
 .cours_timging_bg {
     background: url("images/cours_bg.jpg");
-    min-height: 780px;
+    min-height: 740px;
     width: 100%;
     margin-top: 50px;
 }
 
 .time_table {
-    background: rgba(255,255,255,.85);
-    margin-top: 110px;
     min-height: 560px;
     padding: 70px 200px;
 }
