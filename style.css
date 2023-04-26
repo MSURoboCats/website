@@ -2102,6 +2102,11 @@ p.large_1 {
     8.others
 -------------------------------------------------------------------*/
 
+#calendar{
+    padding-top: 90px;
+    border: none;
+}
+
 .loader {
     display: block;
     margin: 20px auto 0;
