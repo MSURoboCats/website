@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    background-color: rgb(10,18,50);
+    --border-color: rgb(255,255,255,.1)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}

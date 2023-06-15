@@ -1,0 +1,32 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+ul {
+    font-size: 2.25rem;
+    list-style: none;
+
+}
+.container{
+    font-color: white;
+    text-decoration: none;
+    padding: 3rem 2rem;
+}
+
+nav {
+    font-family: Poppins;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+
+}
+
+nav > .nav-section {
+    padding: 3rem 2rem;
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid var(--border-color);
+}
