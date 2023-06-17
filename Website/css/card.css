@@ -1,6 +1,7 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
+  /*height: 800px;*/
   margin: auto;
   text-align: center;
 }
@@ -10,13 +11,17 @@
   font-size: 18px;
 }
 
+.card > img{
+  max-height: 500px;
+}
+
 button {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #00205B;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -26,8 +31,14 @@ button {
 a:link {
   text-decoration: none;
   font-size: 22px;
-  color: white;
+  color: #B9975B;
+  padding: 0 4px;
 }
+i {
+  color: #B9975B;
+
+}
+
 
 button:hover, a:hover {
   opacity: 0.7;
