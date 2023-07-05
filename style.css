@@ -2971,9 +2971,9 @@ h4.font_themecolor {
     color: #252323;
     font-weight: 400;
     line-height: 55px;
-    width: auto;
-    float: left;
-    position: relative;
+    display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 .heading_s1 h2::first-letter {
