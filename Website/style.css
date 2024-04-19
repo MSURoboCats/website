@@ -63,7 +63,7 @@ a {
 
 #nav {
     float : right;
-    width : 1100px;
+    width : 1050px;
     height : 100%;
     position : relative;
 }
@@ -72,13 +72,12 @@ a {
     height : 20%;
     position : absolute;
     top : 40%;
-    top : 40%;
 }
 
 .nav-button {
     float : left;
     font-family : 'Poppins', sans-serif;
-    margin-right : 100px;
+    margin-left : 80px;
     margin-bottom : 0px;
     height : 100%;
 }
@@ -119,3 +118,21 @@ a {
     left : 5%
 }
 
+/*-------------------------------------------------------------------
+    4. Footer
+-------------------------------------------------------------------*/
+
+#footer {
+    width: 100%;
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#footer p {
+    color: rgba(255,255,255,1);
+}
+
+#footer container {
+    height: 50%;
+    padding-top: 25%;
+}
