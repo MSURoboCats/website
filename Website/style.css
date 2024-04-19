@@ -124,15 +124,32 @@ a {
 
 #footer {
     width: 100%;
-    min-height: 500px;
+    min-height: 150px;
     background-color: rgba(0, 0, 0, 1);
+    position: relative;
 }
 
 #footer p {
     color: rgba(255,255,255,1);
 }
 
-#footer container {
-    height: 50%;
-    padding-top: 25%;
+#footer .container {
+    height: 40%;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+}
+
+#footer .container .logo {
+    float : left;
+    height: 100%;
+    margin-left: 50px;
+}
+
+#footer .container .media {
+    float : right;
+    height: 100%;
+    margin-right: 50px;
 }
