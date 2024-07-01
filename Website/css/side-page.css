@@ -101,6 +101,7 @@ but it does so don't you dare fucking touch it lol.*/
 #logo{
     width: 30%;
     min-width: 300px;
+    max-width: 350px;
     margin-left: 2rem;
 }
 
