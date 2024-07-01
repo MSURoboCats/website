@@ -124,20 +124,22 @@ h1 {
 }
 
 main .photo-grid{
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     justify-content: left ;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+    padding: 2rem 5%;
     flex-wrap: wrap;
 }
 
-main .sub{
-    width: 23%;
+main .custom_card{
+    width: 25%;
     min-width: 250px;
     margin: 0;
     padding: 20px 24px;
-    border: 1px solid #5F44E3;
+    border: 1px solid #44E3D2;
     /*border-radius: 30px;*/
     min-height: 400px;
     max-height: 600px;
@@ -145,7 +147,7 @@ main .sub{
     background-size: cover;
     background-position: center;
 }
-main .sub img{
+main .custom_card img{
     width: 100%;
     max-height: 420px;
     border-radius: 25px;
@@ -174,11 +176,7 @@ footer {
     height: 25%;
     color: white;
     background-color: #3a3a3a;
-
-}
-
-footer ul{
-    list-style: none;
+    box-sizing: border-box;
 }
 
 footer a {
@@ -186,12 +184,19 @@ footer a {
 }
 
 footer .row {
-    padding: 5% 1rem;
-    box-sizing: border-box;
+    padding: 5% 0 0 0;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    /*box-sizing: border-box;*/
 }
 
 
-.other_links ul{
+.footer_menu ul{
+    justify-content: center;
+    list-style: none;
+}
+
+#social-media-ul{
     display: flex;
 }
 
@@ -209,5 +214,15 @@ footer .container {
     max-height: 350px;
     width: 100vw;
     padding: 5% 2.5% 5% 2.5%;
+}
+
+.col-md-4 .footer_logo{
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-4 {
+    justify-content: center;
+    text-align: center;
 }
 

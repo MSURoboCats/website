@@ -4398,7 +4398,7 @@ tbody.collapse.show {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.card {
+.custom_card {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4460,12 +4460,12 @@ tbody.collapse.show {
   margin-left: 1.25rem;
 }
 
-.card > .list-group:first-child .list-group-item:first-child {
+.custom_card > .list-group:first-child .list-group-item:first-child {
   border-top-right-radius: 0.25rem;
   border-top-left-radius: 0.25rem;
 }
 
-.card > .list-group:last-child .list-group-item:last-child {
+.custom_card > .list-group:last-child .list-group-item:last-child {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
@@ -4650,7 +4650,7 @@ tbody.collapse.show {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
   }
-  .card-deck .card {
+  .card-deck .custom_card {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -4665,10 +4665,10 @@ tbody.collapse.show {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .card-deck .card:not(:first-child) {
+  .card-deck .custom_card:not(:first-child) {
     margin-left: 15px;
   }
-  .card-deck .card:not(:last-child) {
+  .card-deck .custom_card:not(:last-child) {
     margin-right: 15px;
   }
 }
@@ -4683,41 +4683,41 @@ tbody.collapse.show {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
   }
-  .card-group .card {
+  .card-group .custom_card {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 0%;
         -ms-flex: 1 0 0%;
             flex: 1 0 0%;
   }
-  .card-group .card + .card {
+  .card-group .custom_card + .custom_card {
     margin-left: 0;
     border-left: 0;
   }
-  .card-group .card:first-child {
+  .card-group .custom_card:first-child {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
   }
-  .card-group .card:first-child .card-img-top {
+  .card-group .custom_card:first-child .card-img-top {
     border-top-right-radius: 0;
   }
-  .card-group .card:first-child .card-img-bottom {
+  .card-group .custom_card:first-child .card-img-bottom {
     border-bottom-right-radius: 0;
   }
-  .card-group .card:last-child {
+  .card-group .custom_card:last-child {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
   }
-  .card-group .card:last-child .card-img-top {
+  .card-group .custom_card:last-child .card-img-top {
     border-top-left-radius: 0;
   }
-  .card-group .card:last-child .card-img-bottom {
+  .card-group .custom_card:last-child .card-img-bottom {
     border-bottom-left-radius: 0;
   }
-  .card-group .card:not(:first-child):not(:last-child) {
+  .card-group .custom_card:not(:first-child):not(:last-child) {
     border-radius: 0;
   }
-  .card-group .card:not(:first-child):not(:last-child) .card-img-top,
-  .card-group .card:not(:first-child):not(:last-child) .card-img-bottom {
+  .card-group .custom_card:not(:first-child):not(:last-child) .card-img-top,
+  .card-group .custom_card:not(:first-child):not(:last-child) .card-img-bottom {
     border-radius: 0;
   }
 }
@@ -4731,7 +4731,7 @@ tbody.collapse.show {
        -moz-column-gap: 1.25rem;
             column-gap: 1.25rem;
   }
-  .card-columns .card {
+  .card-columns .custom_card {
     display: inline-block;
     width: 100%;
     margin-bottom: 0.75rem;
