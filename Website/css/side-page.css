@@ -123,6 +123,13 @@ h1 {
     font-size: 3rem;
 }
 
+main .photo-grid{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
 main .sub{
     width: 23%;
     min-width: 250px;
