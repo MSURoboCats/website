@@ -1,0 +1,171 @@
+/*-------------------------------------------------------------------
+    1. Imports
+-------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+/*-------------------------------------------------------------------
+    2. Full Document tags
+-------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+}
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+body {
+    color: white;
+    /* sky color*/
+    background:radial-gradient(ellipse at center, rgba(255,254,234,1) 20%, rgba(255,254,234,1) 25%, #B7E8EB 100%);
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------
+    3. Header
+-------------------------------------------------------------------*/
+
+a {
+    text-decoration : none;
+}
+
+
+.nav-button {
+    margin-left : 80px;
+    margin-bottom : 0;
+    height : 100%;
+}
+
+.nav-button a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(154,125,49,1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-button a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/*-------------------------------------------------------------------
+    4. Main Page
+-------------------------------------------------------------------*/
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+
+.section2{
+    background-color: #01495e;
+}
+.section3{
+    background-color: #013a4b;
+}
+.section4{
+    background-color: #012b38;
+}
+main {
+    margin: 2rem;
+    color: purple;
+}
+#title-spacer{
+    width: 100%;
+    height: 15%;
+}
+.spacer{
+    width: 100%;
+    height: 400px;
+}
+
+/*-------------------------------------------------------------------
+    4. Wave Animation
+-------------------------------------------------------------------*/
+
+.space-grotesk-semiBold {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ocean {
+    height: 55%;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index: -1;
+    background: #015871;
+}
+
+.wave {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+
+}
+
+.wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+@keyframes swell {
+    0%, 100% {
+        transform: translate3d(0,-25px,0);
+    }
+    50% {
+        transform: translate3d(0,5px,0);
+    }
+}
+
+/*-------------------------------------------------------------------
+    4. Footer
+-------------------------------------------------------------------*/
+
+.deep-ocean{
+    background: linear-gradient(#015871, #000000);
+    height: 480px;
+    width: 100%;
+    /*position: absolute;*/
+    /*bottom:0;*/
+    /*left:0;*/
+}
+
+footer {
+    width: 100%;
+    min-height: 500px;
+    background-color: black;
+}

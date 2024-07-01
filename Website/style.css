@@ -10,46 +10,19 @@
 -------------------------------------------------------------------*/
 
 body {
-    margin : 0px;
-    font-family : 'Poppins', sans-serif;
+    margin : 0;
+    background: #015871;
 }
 
-a {
-    text-decoration : none;
-    font-family : 'Poppins', sans-serif;
-}
 
-.wallpaper {
-    background-image : url('images/dottet_bg.png');
-    min-height : 2000px;
-    padding-top : 50px;
-    padding-left : 100px;
-    padding-right : 100px;
-}
-
-.container {
-    width : 1200px;
-    margin : auto;
-}
-
-.relative {
-    position : relative;
-}
-
-.vertical-center {
-    position : absolute;
-    top : 50%;
-    bottom : 50%;
-}
 
 /*-------------------------------------------------------------------
     3. Header
 -------------------------------------------------------------------*/
 
-#header {
+header {
     width : 100%;
     height : 120px;
-    margin : 0px;
     background-image : url("images/main_background.jpg");
     background-size : 150% 250%;
 }
@@ -59,26 +32,26 @@ a {
     height : 100%;
     width : 15%;
     margin-left : 20px;
+    margin-top: 15%;
 }
 
-#nav {
+nav {
+    margin-top: 1.5%;
+    /*padding-top: 48px;*/
     float : right;
     width : 1050px;
     height : 100%;
-    position : relative;
+
 }
 #nav-bar {
     width : 100%;
     height : 20%;
-    position : absolute;
     top : 40%;
 }
 
 .nav-button {
-    float : left;
-    font-family : 'Poppins', sans-serif;
     margin-left : 80px;
-    margin-bottom : 0px;
+    margin-bottom : 0;
     height : 100%;
 }
 
