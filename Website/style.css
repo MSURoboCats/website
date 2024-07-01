@@ -9,6 +9,75 @@
     2.basic
 -------------------------------------------------------------------*/
 
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a,
+h5:hover a,
+h6:hover a {
+    color: #121212 !important;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #111428;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 23px
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #111428;
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    color: #030101;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #111428;
+    font-size: 35px;
+    line-height: normal;
+    margin-bottom: 17px;
+    font-weight: 600;
+    color: #111428;
+    letter-spacing: -1px;
+    line-height: 35px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #111428;
+    font-size: 19px;
+    line-height: 29px;
+    margin-bottom: 14px
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #111428;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 11px
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #111428;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 11px
+}
+
 body {
     margin : 0px;
     font-family : 'Poppins', sans-serif;
