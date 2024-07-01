@@ -24,21 +24,34 @@
     <body>
         <!-- 1. Header -->
         <header>
-            <div id="logo">
-                <a href="index.html"><img class="logo vertical-center" src="images/logo.png" alt="#"></a>
-            </div>
+            <nav class=" nav navbar navbar-expand-sm navbar-dark" id="nav-bar">
 
-            <nav>
-                <ul id="nav-bar">
-                    <li class="nav-button"><a href="index.html">Home</a></li>
-                    <li class="nav-button"><a href="html/team.html">Team</a></li>
-                    <li class="nav-button"><a href="html/history.html">History</a></li>
-                    <li class="nav-button"><a href="html/members.html">Members</a></li>
-                    <li class="nav-button"><a href="html/subs.html">Subs</a></li>
-                    <li class="nav-button">
-                        <a href="html/sponsors.html">Sponsors</a>
-                    </li>
-                </ul>
+                <a href="index.html" class="navbar-brand"><img id="logo" src="images/logo.png" alt="#"/></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span id="steamed-ham" class="navbar-toggler-icon" ></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto" style="margin-right: 2rem">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="members.html" class="nav-link">MEMBERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Teams" class="nav-link">TEAMS</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a href="subs.html" class="nav-link">SUBS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#SPONSORS" class="nav-link">SPONSORS</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
 
         </header>

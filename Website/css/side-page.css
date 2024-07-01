@@ -125,7 +125,9 @@ h1 {
 
 main .photo-grid{
     display: flex;
-    justify-content: space-between;
+    justify-content: left ;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 20px;
     flex-wrap: wrap;
 }
@@ -133,10 +135,10 @@ main .photo-grid{
 main .sub{
     width: 23%;
     min-width: 250px;
-    margin: 15px 0;
+    margin: 0;
     padding: 20px 24px;
-    border: 1px solid grey;
-    border-radius: 30px;
+    border: 1px solid #5F44E3;
+    /*border-radius: 30px;*/
     min-height: 400px;
     max-height: 600px;
     box-shadow: 20px 20px 30px rgba(0,0,0, 0.02);
@@ -161,16 +163,51 @@ main .sub img{
 -------------------------------------------------------------------*/
 
 .deep-ocean{
-    background: linear-gradient(#015871, #000000);
+    background: linear-gradient(#015871, #3a3a3a);
     height: 480px;
     width: 100%;
-    /*position: absolute;*/
-    /*bottom:0;*/
-    /*left:0;*/
 }
 
 footer {
     width: 100%;
-    min-height: 500px;
-    background-color: black;
+    min-height: 350px;
+    height: 25%;
+    color: white;
+    background-color: #3a3a3a;
+
 }
+
+footer ul{
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .row {
+    padding: 5% 1rem;
+    box-sizing: border-box;
+}
+
+
+.other_links ul{
+    display: flex;
+}
+
+footer li{
+    margin: .5rem;
+}
+
+footer .col-md-4 {
+    height: 60%;
+}
+
+footer .container {
+    height: 100%;
+    margin: 0;
+    max-height: 350px;
+    width: 100vw;
+    padding: 5% 2.5% 5% 2.5%;
+}
+

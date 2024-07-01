@@ -38,19 +38,59 @@ body {
 a {
     text-decoration : none;
 }
-
-
-.nav-button {
-    margin-left : 80px;
-    margin-bottom : 0;
-    height : 100%;
+nav{
+    margin:0;
+    padding:0;
 }
 
-.nav-button a:after {
+/*I don't know how tf this mess of code works,
+but it does so don't you dare fucking touch it lol.*/
+
+.nav-item{
+    /*padding: 1.5rem;*/
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-inline: 1.5rem;
+    box-sizing: border-box;
+    /*border: 2px solid grey;*/
+
+}
+.nav-item>a{
+    font-size: 1.6rem;
+    color: black;
+    font-weight : bold;
+    background-image: linear-gradient(
+            to right,
+            #54b3d6,
+            #54b3d6 50%,
+            #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.nav-item>a:before{
     content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item>a:after{
+    content: '';
+    transform: scaleX(0);
     position: absolute;
     width: 100%;
-    transform: scaleX(0);
     height: 4px;
     bottom: 0;
     left: 0;
@@ -58,10 +98,19 @@ a {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-
-.nav-button a:hover:after {
+.nav-item>a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+#logo{
+    width: 30%;
+    min-width: 300px;
+    margin-left: 2rem;
+}
+
+#nav-bar{
+    background-color: #00ACC1;
 }
 /*-------------------------------------------------------------------
     4. Main Page
