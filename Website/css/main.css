@@ -27,10 +27,6 @@ body {
 
 
 
-
-
-
-
 /*-------------------------------------------------------------------
     3. Header
 -------------------------------------------------------------------*/
@@ -120,13 +116,22 @@ but it does so don't you dare fucking touch it lol.*/
 h1 {
     text-align: center;
     color: black;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: bold;
     /*font-size: 5rem;*/
 }
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem   ;
+}
 
 .section2{
-    width: 120%;
+    width: 100%;
     background-color: #01495e;
 }
 
@@ -139,9 +144,76 @@ h1 {
 }
 
 main {
-    margin: 2rem;
+    /*margin: 2rem;*/
+    padding: 2rem 3rem 3rem 3rem;
+    width: 100%;
+    text-align: center;
+    background-color: #015871;
 }
 
+/*-------------------------------------------------------------------
+    5. About Section
+-------------------------------------------------------------------*/
+
+#about{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video_container{
+    height :60vh;
+}
+iframe{
+    width: 80%;
+    height: 100%;
+}
+
+
+
+/*-------------------------------------------------------------------
+    6. Teams Section
+-------------------------------------------------------------------*/
+#our-teams{
+    padding: 2rem;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team{
+    width: 25%;
+    min-width: 200px;
+    padding: 1rem;
+}
+.team-logo{
+    padding: 2rem 0;
+    width: 100%;
+}
+
+/*logo Colors*/
+#software-logo{
+    filter: invert(64%) sepia(54%) saturate(616%) hue-rotate(128deg) brightness(94%) contrast(105%);
+}
+#mechanical-logo{
+    filter: invert(24%) sepia(37%) saturate(315%) hue-rotate(157deg) brightness(91%) contrast(89%);
+}
+#electrical-logo{
+    filter: invert(14%) sepia(95%) saturate(3698%) hue-rotate(266deg) brightness(83%) contrast(109%);
+}
+#business-logo{
+    filter: invert(63%) sepia(65%) saturate(2784%) hue-rotate(114deg) brightness(105%) contrast(90%);
+}
+/*-------------------------------------------------------------------
+    7. Wave Animation
+-------------------------------------------------------------------*/
 #title-spacer{
     width: 100%;
     height: 15%;
@@ -150,11 +222,6 @@ main {
     width: 100%;
     height: 400px;
 }
-
-/*-------------------------------------------------------------------
-    4. Wave Animation
--------------------------------------------------------------------*/
-
 .space-grotesk-semiBold {
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
@@ -208,7 +275,7 @@ main {
 }
 
 /*-------------------------------------------------------------------
-    4. Footer
+    8. Footer
 -------------------------------------------------------------------*/
 
 .deep-ocean{

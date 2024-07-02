@@ -27,6 +27,7 @@ body {
 
 
 
+
 /*-------------------------------------------------------------------
     3. Header
 -------------------------------------------------------------------*/
@@ -140,7 +141,7 @@ main .photo-grid{
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    justify-content: left ;
+    justify-content: center ;
     margin-left: auto;
     margin-right: auto;
     padding: 2rem 5%;
