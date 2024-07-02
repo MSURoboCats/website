@@ -1,49 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>RoboCats Members</title>
+    <!-- Basic -->
+    <meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mobile Metadata -->
+    <meta name="viewport" content="initial-scale=1">
+
+    <!-- Site Metadata -->
+    <title>RoboCats</title>
     <meta name="author" content="RoboCats Software Team">
 
-    <link rel="stylesheet" href="css/main.css">
+    <!--Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Stylesheet References-->
+    <link href="css/side-page.css" rel="stylesheet">
 
 </head>
-<body>
-    <header>
-        <nav>
 
+<body>
+    <!-- 1. Header -->
+    <header>
+        <nav class=" nav navbar navbar-expand-sm navbar-dark" id="nav-bar">
+
+            <a href="index.html" class="navbar-brand"><img id="logo" src="images/logo.png" alt="#"/></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span id="steamed-ham" class="navbar-toggler-icon" ></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto" style="margin-right: 2rem">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="members.html" class="nav-link">MEMBERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="teams.html" class="nav-link">TEAMS</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a href="subs.html" class="nav-link">SUBS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sponsors.html" class="nav-link">SPONSORS</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
+    <main id="members">
+        <h1>OUR MEMBERS!!</h1>
+            <p id="description">Thank you to all the members of the RoboCats who sacrifice their time and energy to contribute to this club!
+                Each one of you helps create something special for this team to enjoy.
+                Being a small team means that every team member has to wear multiple hats to keep this club running.
+                Below are the members of this club who contributed to the club in any way over the past year.
+            </p>
+        <br>
+        <br>
 
-<!--    Sea Animation section-->
-    <div class="ocean">
-        <div class="wave"></div>
-        <div class="wave"></div>
-    </div>
+        <h2>ELECTRICAL TEAM</h2>
+        <!--Typhoon card-->
+        <div class="photo-grid2">
+            <div class="custom_card2">
+                <img src="images/2024/members/Peter_Buckley.jpg" alt="Peter Buckley">
+                <div class="desc">
+                    <h4 class="card-name">Peter Buckley</h4>
+                    <span class="title">Electrical Lead</span>
+                </div>
+            </div>
 
-<!--    Couldn't get the animation to work without using absolute position. Thus the spacer div aligns content correctly on the page-->
-    <div id="title-spacer"></div>
-    <h1>Team members</h1>
-    <div class="spacer"></div>
+            <!--David Jenson-->
+            <div class="custom_card2">
+                <img src="images/2024/members/David_Jensen.jpg" alt="David Jenson">
+                <div class="desc">
+                    <h4 class="card-name">David Jensen</h4>
+                    <span class="title">Social Media Manager</span>
+                </div>
+            </div>
 
-    <main>
-        <h1>Whereas recognition of the inherent dignity</h1>
-        <p>Whereas recognition of the inherent dignity</p>
+            <!--Nathan O.-->
+            <div class="custom_card2">
+                <img src="images/2024/members/Nathan_O.jpg" alt="Nathan O.">
+                <div class="desc">
+                    <h4 class="card-name">Nathan O.</h4>
+                    <span class="title">Electrical Team member</span>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <h2>MECHANICAL TEAM</h2>
+        <div class="photo-grid2">
+            <!--Mikael Savage-->
+            <div class="custom_card2">
+                <img src="images/2024/members/Mikael_Savage.jpg" alt="Michael Savage">
+                <div class="desc">
+                    <h4 class="card-name">Mikael Savage</h4>
+                    <span class="title">Mechanical Team Lead</span>
+                </div>
+            </div>
+
+            <!--Ethan Bandy-->
+            <div class="custom_card2">
+                <img src="images/2024/members/Ethan_Bandy.jpg" alt="Ethan Bandy">
+                <div class="desc">
+                    <h4 class="card-name">Ethan Bandy</h4>
+                    <span class="title">President</span>
+                </div>
+            </div>
+
+            <!--Anjali Gunning-->
+            <div class="custom_card2">
+                <img src="images/2024/members/Anjali_Gunning.jpg" alt="Anjali Gunning">
+                <div class="desc">
+                    <h4 class="card-name">Anjali Gunning</h4>
+                    <span class="title">Vice President</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo-grid2">
+            <!--Carson Philips-->
+            <div class="custom_card2">
+                <img src="images/2024/members/Carson_Philips.jpg" alt="Carson Philips">
+                <div class="desc">
+                    <h4 class="card-name">Carson Philips</h4>
+                    <span class="title">Mechanical Team Member</span>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <h2>SOFTWARE TEAM</h2>
+        <div class="photo-grid2">
+
+            <!--Brendan Harrington-->
+            <div class="custom_card2">
+                <img src="images/2024/members/Brendan_Harrington.jpg" alt="Brendan">
+                <div class="desc">
+                    <h4 class="card-name">Brendan Harrington</h4>
+                    <span class="title">Software Lead</span>
+                </div>
+            </div>
+
+            <!--David Jenson-->
+            <div class="custom_card2">
+                <img src="images/2024/members/David_Jensen.jpg" alt="David Jenson">
+                <div class="desc">
+                    <h4 class="card-name">David Jensen</h4>
+                    <span class="title">Competition Software Lead</span>
+                </div>
+            </div>
+
+            <!--Teddy Vander Wall-->
+            <div class="custom_card2">
+                <div class="circular--portrait">
+                <img src="images/2024/members/Teddy_Vander_Wall.jpg" alt="Teddy Vander Wall">
+                </div>
+                <div class="desc">
+                    <h4 class="card-name">Teddy Vander Wall</h4>
+                    <span class="title">Secretary</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo-grid2">
+        <!--Jake Laughrey-->
+            <div class="custom_card2">
+                <img src="images/2024/members/jacob.jfif" alt="Jake Laughrey">
+                <div class="desc">
+                    <h4 class="card-name">Jake Laughrey</h4>
+                    <span class="title">Software Team Member</span>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <h2>BUSINESS TEAM</h2>
+        <div class="photo-grid2">
+            <!--Anjali Gunning-->
+            <div class="custom_card2">
+                <img src="images/2024/members/Anjali_Gunning.jpg" alt="#">
+                <div class="desc">
+                    <h4 class="card-name">Anjali Gunning</h4>
+                    <span class="title">Business Lead</span>
+                </div>
+            </div>
+
+            <!--Teddy Vander Wall-->
+            <div class="custom_card2">
+                    <img src="images/2024/members/Teddy_Vander_Wall.jpg" alt="Dark Knight Sub">
+                <div class="desc">
+                    <h4 class="card-name">Teddy Vander Wall</h4>
+                    <span class="title">Business Team Member</span>
+                </div>
+            </div>
+
+            <!--Brendan Harrington-->
+            <div class="custom_card2">
+                <img src="images/2024/members/Brendan_Harrington.jpg" alt="Brendan">
+                <div class="desc">
+                    <h4 class="card-name">Brendan Harrington</h4>
+                    <span class="title">Business Team Member</span>
+                </div>
+            </div>
+        </div>
 
     </main>
 
-    <!-- footer -->
-    <div class="deep-ocean" ></div>
+
     <footer>
-        <p>trash</p>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 center-block">
+                <a href="index.html"><img class="img-fluid footer_logo" src="images/logo_footer.png" alt="#"  /></a>
+                <div class="footer_link_heading">
+                    <!-- TODO: Need to delete below. forgot to do it when originally building the footer and I'm scared it'll break everything.-->
+                    <div class="footer_menu">
+                        <ul>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-4 col-sm-12">
+                <div class="footer_link_heading">
+                    <h3>Contact Information</h3>
+                </div>
+                <div class="footer_menu">
+                    <ul>
+                        <li><a href="https://www.robocatsmsu@gmail.com">robocatsmsu@gmail.com</a></li>
+                        <li><a href="https://www.google.com/maps/search/montana+state+university/@45.6687917,-111.0536065,15z/data=!3m1!4b1?entry=ttu" target="_blank">Cobleigh Hall Bozeman, MT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="footer_link_heading">
+                    <h3>Other Links</h3>
+                </div>
+                <div class="footer_menu other_links">
+                    <ul id="social-media-ul">
+                        <li><a href="https://www.facebook.com/MSURoboCats" target="_blank"> <img src="images/facebook.webp" alt="Facebook Logo" /></a></li>
+                        <li><a href="https://www.instagram.com/msurobocats/" target="_blank"> <img src="images/instagram.webp" alt="Instagram Logo" /></a></li>
+                        <li><a href="https://github.com/MSURoboCats" target="_blank"> <img src="images/GitHub.webp" alt="GitHub Logo" /></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCKuPJoaa9ecproRwV8nSE7g?view_as=subscriber" target="_blank"> <img src="images/youtube.webp" alt="YouTube Logo" /></a></li>
+                        <li><a href="https://twitter.com/MSUrobocats" target="_blank"> <img src="images/twitter.webp" alt="Twitter Logo" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-
-
-
-
-<script src="js/script.js"></script>
 </body>
+
 </html>

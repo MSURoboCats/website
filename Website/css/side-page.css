@@ -114,17 +114,29 @@ but it does so don't you dare fucking touch it lol.*/
 -------------------------------------------------------------------*/
 
 main{
-    margin: 4rem 3rem 3rem 3rem;
+    padding: 4rem 3rem 3rem 3rem;
     text-align: center;
     /*margin: 2rem;*/
 }
 
 h1 {
-    /*text-align: center;*/
-    font-size: 3rem;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+h2 {
+    width: 100%;
+    font-weight: bold;
+    max-width: 1800px;
+    padding-left: 14rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main .photo-grid{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -135,6 +147,17 @@ main .photo-grid{
     flex-wrap: wrap;
 }
 
+main h2{
+    font-size: 3rem;
+}
+.desc {
+    margin-top: 2rem;
+}
+
+
+/*-------------------------------------------------------------------
+    5. subs.html specific styling
+-------------------------------------------------------------------*/
 main .custom_card{
     width: 25%;
     min-width: 250px;
@@ -154,15 +177,77 @@ main .custom_card img{
     border-radius: 25px;
     object-fit: contain;
 }
-
-.desc {
-    margin-top: 1rem;
+.img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+.circular--portrait img {
+    width: 100%;
+    height: auto;
 }
 
 
 
 /*-------------------------------------------------------------------
-    4. Footer
+    6. members.html specific styling
+-------------------------------------------------------------------*/
+#members{
+    background: linear-gradient(#015871, #000000);
+}
+
+#description{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .photo-grid2{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    max-width: 1800px;
+    box-sizing: border-box;
+    border-radius: 18rem;
+    border: 2px solid #f1b100;
+    background-color: #f1b100;
+    display: flex;
+    justify-content: left ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 5%;
+    flex-wrap: wrap;
+}
+
+main .custom_card2{
+    width: 33%;
+    min-width: 250px;
+    margin: 0;
+    padding: 20px 24px;
+    color: black;
+    /*border: 1px solid #44E3D2;*/
+    /*border-radius: 30px;*/
+    min-height: 400px;
+    max-height: 600px;
+    box-shadow: 20px 20px 30px rgba(0,0,0, 0.02);
+    background-size: cover;
+    background-position: center;
+}
+.custom_card2 img{
+    width: 90%;
+    box-sizing: border-box;
+    background-color: #e80002;
+    padding: 2rem;
+    border: 2px solid black;
+    max-height: 420px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+
+/*-------------------------------------------------------------------
+    7. Footer
 -------------------------------------------------------------------*/
 
 .deep-ocean{
