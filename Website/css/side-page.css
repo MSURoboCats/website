@@ -245,9 +245,90 @@ main .custom_card2{
     object-fit: contain;
 }
 
+/*-------------------------------------------------------------------
+    7. teams.html specific styling
+-------------------------------------------------------------------*/
+
+/*logo Colors*/
+#software-logo{
+    filter: invert(64%) sepia(54%) saturate(616%) hue-rotate(128deg) brightness(94%) contrast(105%);
+}
+#mechanical-logo{
+    filter: invert(24%) sepia(37%) saturate(315%) hue-rotate(157deg) brightness(91%) contrast(89%);
+}
+#electrical-logo{
+    filter: invert(14%) sepia(95%) saturate(3698%) hue-rotate(266deg) brightness(83%) contrast(109%);
+}
+#business-logo{
+    filter: invert(63%) sepia(65%) saturate(2784%) hue-rotate(114deg) brightness(105%) contrast(90%);
+}
+
+/*Section Colors*/
+.section2{
+    padding: 3rem;
+    background-color: #01495e;
+}
+.section3{
+    background-color: #013a4b;
+}
+.section4{
+    background-color: #012b38;
+}
+
+#teams{
+    padding: 0;
+}
+.team-logo{
+    padding: 2rem 0;
+    width: 25%;
+}
+.team-title{
+    margin-left: 10%;
+    padding: 2rem;
+
+}
+
+.team-desc{
+    font-size: 1.2rem;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+}
+
+.team-desc p{
+    text-align: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 2rem;
+}
+.team-desc ul{
+    text-align: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 2rem;
+}
 
 /*-------------------------------------------------------------------
-    7. Footer
+    8. teams.html specific styling
+-------------------------------------------------------------------*/
+#sponsors{
+    width: 60%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sponsor-thank-you{
+    font-size: 1.2rem;
+    width: 70%;
+    max-width: 1800px;
+
+}
+
+
+/*-------------------------------------------------------------------
+    8. Footer
 -------------------------------------------------------------------*/
 
 .deep-ocean{
