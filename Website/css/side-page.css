@@ -314,16 +314,43 @@ main .custom_card2{
     8. teams.html specific styling
 -------------------------------------------------------------------*/
 #sponsors{
+    box-sizing: border-box;
     width: 60%;
-    height: 80%;
+    /*height: 75%;*/
     margin-left: auto;
     margin-right: auto;
 }
+
 #sponsor-thank-you{
     font-size: 1.2rem;
     width: 70%;
     max-width: 1800px;
 
+}
+
+.fuck-boostrap{
+    margin: 2rem;
+    /*display: flex;*/
+    width: 90%;
+    justify-content: center;
+    /*height: 40%;*/
+}
+#img1{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#img1 a img{
+    width: 100%;
+}
+#img2{
+    padding: 2rem 0;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#img2 a img {
+    width: 100%;
 }
 
 
@@ -339,7 +366,7 @@ main .custom_card2{
 
 footer {
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
     height: 25%;
     color: white;
     background-color: #3a3a3a;
