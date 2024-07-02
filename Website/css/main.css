@@ -198,6 +198,53 @@ iframe{
     width: 100%;
 }
 
+.blue_bt{
+    font-size: 2rem;
+    color: white;
+    font-weight : bold;
+    background-image: linear-gradient(
+            to right,
+            #54b3d6,
+            #54b3d6 50%,
+            #ffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.blue_bt:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.blue_bt:after{
+    content: '';
+    transform: scaleX(0);
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(154,125,49,1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.blue_bt:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 /*logo Colors*/
 #software-logo{
     filter: invert(64%) sepia(54%) saturate(616%) hue-rotate(128deg) brightness(94%) contrast(105%);
