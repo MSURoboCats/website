@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>About - MSU Robosub Team</title>
+	<link rel="stylesheet" href="{{f:30380130}}" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div class="wrapper clearfix">
+			<div id="logo">
+                <a href="http://www.montana.edu"><img src="{{f:30380235}}" alt="LOGO"></a>
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="{{f:30380259}}">Home</a>
+				</li>
+				<li class="selected">
+					<a href="{{f:30380127}}">About</a>
+				</li>
+				<li>
+					<a href="{{f:30380260}}">Progress</a> 
+				</li>
+				<li>
+					<a href="{{f:30380129}}">Blog</a>
+				</li>
+				<li>
+					<a href="{{f:30380136}}">Gallery</a>
+				</li>
+                <li>
+                    <a href="{{f:30380258}}">IMU Team</a>
+                </li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+        <div id="gallery" class="wrapper clearfix">
+            <div class="mainGallery">
+				
+				<h1>The Montana State University Robosub</h1>
+				<div class="photos">
+                    <ul>
+                        <li>
+							
+								<h1>General Overview</br></h1><p>The newest manifestation of Montana State University’s Autonomous Underwater Vehicle team is Blue November, the second rendition of Sanka, a fully autonomous submarine built to take part in the 17th annual AUVSI/ONR RoboSub Competition held in July 2013 at Point Loma Naval Base in San Diego, California.  Although many of the same design theories have survived since last year because they worked, the most recent rendition of the sub will feature an enhanced frame, electronics tube, new electronics rack, new pneumatics set-up, new torpedo set up, new camera location, and modified endcap design.  Much time has also been spent creating a new software logic that is more accurate, more robust, will be easier to adapt to future models, and well documented.  Focus was maintained on modularity and previous modularity was enhanced in the new design which will allow for future upgrades and the replacement of failed parts.  This ideal can also be seen in the easy, flexible build process requiring very little tooling which allows assembly without the need for much more than a hex key.  Although most of the mechanical and electrical components were largely developed by their respective undergraduate students, it was crucial to have crossover members who could integrate into both fields to stimulate and foster communication between teams, ensuring neither side was surprised by the other at the end of the semester and that the final product would come together smoothly. This was done by well respected advisor Dr. Todd kaiser, through proper team communication, and through good inter-team relations.
+								</br><center><img src="{{f:30380215}}"></center>
+								</p><p class="center">This is a rendering of what our new sub will look like.
+							</p>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							
+								<h1>Structure</br></h1>
+								<p>Sanka, the submarine from the previous year, had a very solid mechanical design.  This years team decided very early in the design process to not change the overall design in a major way.  The Blue November design team has selected several areas of Sanka which require the most improvement but will not affect the mechanical soundness.  Sanka’s pneumatic system, end cap design, frame design, and placement of the front camera and torpedo launchers were designated as the redesign areas. The design process and the final selected assemblies of each of these are discussed in detail below.</br>
+								</br><b>External Pneumatics System</b>
+								A functioning pneumatic system is critical for several of the competition tasks. To complete these tasks there are two mechanical systems which require pressurized CO2 to operate.  To save weight only one CO2 tank is used with T-junctions and solenoid valves to control the pressure burst and direct the CO2 to the two systems.  Sanka’s design team housed the pneumatic system internally in the main chassis tube with unneeded tubing between each junction.  This extra tubing and internally housed system, shown below, complicated accessing the electronics rack required extra holes drilled into the main chassis tube and further filled an already packed tube. 
+								</p><center><img src="{{f:30380197}}"></center></br><p>
+								With these problems in mind a new pneumatic system was designed. First the system was decided to be kept externally which would free space and allow for less holes to be drilled into the endcap, lessening the chance of leaking which will destroy the critical and expensive electronic boards. It was also decided to house the system in its own pressure vessel to offset the weight of the pneumatic system as well keep the system dry for operation.  Finally the T-Junctions were simplified and compacted to cut the extra tubing that was used in the previous design.</br>
+								</p><center><img src="{{f:30380199}}"></center></br><p>
+								The new design, shown above, requires one CO2 tank which connects to a check valve which regulates the pressure to 100 psi and can handle pressures up to 3000 psi.  The check valve feeds the pressure into a four-junction system with four exits. Each exit is controlled by an in-line solenoid valve which will allow flow to the two torpedos and the two droppers.  Each solenoid valve operates on a 12 V input.  The pneumatic system will be housed in PVC piping with a solid end cap on one end and a threaded cap on the other. </br>
+								</br><b>End Cap Design</b>
+								<u>Heat Fins & Gasket</u></br>
+								The Sanka team had used a flat and solid aluminum, 2 inch thick plate, and O-rings between the endcap and chassis tube to seal the main chassis tube.  During initial testing of Sanka it was noticed that the internal temperature of the sub was climbing dangerously close to the 50 degrees celsius mark which is the maximum temperature the voltage controller board can operate at. Blue November will be using. A thermal analysis of the sub was also completed and showed that 52.5 degrees celsius was the point when the internal temperature would reach equilibrium.  To combat this two design changes were completed.  First, the chassis tube was lengthened and pneumatic system removed to allow for a larger volume of air that needs to be heated. Second, heat fins will be added on the front end cap to increase heat dissipation as well as a larger internal CPU fan to keep the air well mixed.</br>
+								</p><center><img src="{{f:30380181}}"></center></br><p>
+								As well as changing the end cap the O-rings are being replaced.  During first semester testing of Sanka the O-rings which were used in the to seal the tube often popped out and were difficult to deal with.  This discouraged the group from removing the endcap which is required to access the electronics rack.  The sub also had small amounts of leaking which was attributed to the O-rings not being placed perfectly in their grooves.  To simplify the design a gasket has been chosen to replace the O-rings.</br>
+								</br><u>Toggle Clamp</u></br>
+								One endcap needs to be removed so that the electronic boards can be removed and worked on.  The Sanka design had 8 screws on the outer diameter of the endcap which were required to be unscrewed and screwed back in each time the electronics needed to be checked or worked on.  This required time and effort which in a competition setting, when the electronics rack might be needed to be accessed quickly, could prove to be costly.  The Blue November design is to use four toggle clamps shown below. This design was chosen for ease of use factor as well as quick access to the electronics.
+								</p><center><img src="{{f:30380171}}"></center></br><p>
+								<b>Frame Design</b></br>
+								The frame on Sanka did not have any easy places which allowed for the sub to be picked up and moved around outside of the pool.  It also had two large steel rings which allowed for the chassis tube to be attached to the frame.  Blue November has changed both of these.  First the frame has been extended to mid-level of the submarine to allow for easy picking up by hand to move it to and fro the pool.  Second the chassis tube will be attached to the frame by four pvc mounts with a strong plastic to plastic adhesive.  These pvc mounts will then be bolted on to the frame.  This will cut the weight the was previously created by the large steel rings.</br>
+								</p><center><img src="{{f:30380179}}"></center></br><p>
+								<b>Camera Placement & Torpedo Launcher Placement</b></br>
+								The camera and torpedo launchers were placed on the top part of the submarine in the Sanka design.  This could cause problems when trying to hit required targets because it is not in-line with the center of the submarine.  Blue November has camera and torpedo launchers placed in-line with the center of the sub. </br>
+								</p><center><img src="{{f:30380166}}"></center></br><p>
+								<b>Electronics Rack</b></br>
+								The electronics needs to hold 8 controller boards, 2 sensor boards, a full computer and various switches and power strips.  All of these components have pins and connections which need to be periodically adjusted, checked for loose connections, or re-wired.  The Sanka electronics rack was bolted together and each board was bolted the chassis rack.  Four pins which were parallel along the length of the rack were used to keep the spacing. To work on individual boards all four pins needed to be unscrewed and the entire assembly needed to be taken apart. The electronics were not easily accessed and the connection pins could not be checked.  For ease of access a new rack, termed a “Clamshell” design, was designed. This design will be capable of being flipped open by having a hinged side which allows quick checking of electrical components. </br>
+								</p><center><img src="{{f:30380175}}"></center></br><p>
+								<b>Mechanical Block Diagram</b></br>
+								</p><center><img src="{{f:30380191}}"></center></br><p>
+								
+								
+
+							</p>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							
+							<h1>Electronics</br></h1>
+							<p><b>Electrical hardware design</b></br>
+							The Electrical Hardware of the old sub was quite sufficient. The electrical hardware was designed based on the implementation of a full motherboard system. There are many reasons a full motherboard system was chosen over a single microchip based implementation. The full motherboard allows for real time monitoring of the system along with software change implementation without having to upload and re-upload code to a microchip. The motherboard also allows for greater modularity of parts as well as easy upgrades and changes to the system. A few changes were made to the electrical hardware but on the whole, the hardware was kept the same as the design that was done last year because the design worked and functioned well. There were still many modifications made to the current electronic layout, the future electronic layout, and the documentation of the electronics all of which were absent in the Sanka iteration of the sub. The following  subsections will introduce the electrical systems in full and how they work.</br>
+							</p><p class="center"><u>The Electrical Block Diagram</u></br>
+							</p><center><img src="{{f:30380164}}"></center></br><p>
+							In understanding the electrical system of the sub, the first step is to gain a basic understanding of how the general parts interface. The above block diagram does just that. It introduces all of the necessary parts in generality and how they are interconnected. The block diagram is based on the current implementations of the electronics in the Sanka sub which are known to function and work as intended. This diagram is an overview of the general parts necessary to make the sub function. In the Blue November implementation, this block diagram will hold although the specific electrical components may change.</br>
+							</p><p class="center"><u>Internal Electrical Wiring With Component Picture</u></br>
+							</p><center><img src="{{f:30380174}}"></center></br><p>
+							The above diagram is how the Sanka iteration is currently wired. all of the wires are shown and where each one goes to on its specific component. The purpose of this document is to give knowledge of the current wiring in case any wiring problems arise. With this document, a person should be able to hook up the electrical components of the sub from scratch. </br>
+							</p><p class="center"><u>Individual Components Currently Installed on the Sanka Sub</u></br>
+							</p><p class="center"><u>Motherboard</u></br>
+							</p><center><img src="{{f:30380193}}"></center></br><p>
+							The Motherboard is the main hub of the electronics, it is what runs all of the other electronics except for the voltage controller board. The current motherboard aboard Sanka is the nc9b-hm67-mini-itx-motherboard. This is where the operating system is installed and where all of the programs are run and implemented from. This motherboard allows us to use existing free software to develop multitasking and multiple interfacing tools to run the sub. It sufficiently interfaces all of the components and does most of the major computing necessary to run the sub and allow for autonomous operation.</br>
+							</p><p class="center"><u>Voltage Controller Board</u></br>
+							</p><center><img src="{{f:30380206}}"></center></br><p>
+							The voltage controller board is what routes electrical power from the batteries to the entire system. The current voltage controller board on Sanka is the M4-ATX board. This board has outputs to a 5,12, and battery level available. The tolerances and voltage levels can be changed using the hardware monitor for the board. This board is included because it allows specific voltage outputs that are necessary to power the other electrical components on the sub. It also allows the sub to power on and off safely as well as acting as a surge protector for the rest of the electrical components. It effectively controls and monitors power input from the batteries and properly distributes it to the rest of the electrical components.</br>
+							</p><p class="center"><u>Microcontroller Board</u></br>
+							</p><center><img src="{{f:30380162}}"></center></br><p>
+							The microcontroller interfaces the pneumatics and the pressure sensor to the motherboard. It allows the motherboard to communicate and control the pneumatics and the pressure sensor. The microcontroller in Sanka is the arduino mega 2560. The microcontroller allows for external control and part modularity because it runs its own program and interface that can be changed to adapt to specific parts. It currently overlooks and controls the pneumatics and pressure sensor and then reports back to the motherboard.</br>
+							</p><p class="center"><u>Power Capacitor</u></br>
+							</p><center><img src="{{f:30380169}}"></center></br><p>
+							The power capacitor allows for stable power delivery from the batteries to the voltage controller board. If there is a sudden power drop from the batteries, the capacitor can provide power for a short time while the batteries stabilize their power output. The Capacitor also allows for proper shutdown of the system. When the batteries are shut off, the voltage controller realizes it but still needs power for a short time in order to properly shut down the motherboard and components. The capacitor gives the power necessary to do this. However, this is a substantial amount of power which is why the capacitor is so large (10000 micro farads in Sanka).</br>
+							</p><p class="center"><u>Pressure Sensor</u></br>
+							</p><center><img src="{{f:30380201}}"></center></br><p>
+							The pressure sensor in Sanka is a p51 media sensor pressure sensor and allows the sub to know what depth it is at. It interfaces with the arduino microcontroller which takes the raw data and turns it into a useful depth reading. It is molded into the end cap so that it is in direct contact with the surrounding water. Without the pressure sensor, the sub would not be able to control or maintain a depth.</br>
+							</p><p class="center"><u>Inertial Measurement Unit</u></br>
+							</p><center><img src="{{f:30380185}}"></center></br><p>
+							The IMU is a electrical component which allows the sub to know its location in three dimensional space. It records acceleration and orientation in three dimensional space. Currently, Sanka employs a digital compass GEDC-6 IMU unit. The unit is not currently used in the software design but when integrated, it will allow the sub to realize itself in three dimensional space and react accordingly. The IMU gives the sub the information it needs to follow a heading without visual help. </br>
+							</p><p class="center"><u>Internal Pressure and Temperature Sensor</u></br>
+							</p><center><img src="{{f:30380201}}"></center></br><p>
+							The spark fun weatherboard V2 is a pressure and temperature sensor that interfaces with the motherboard through a usb cable. This board allows Sanka to monitor its internal temperature and pressure. The purpose of this board is to give the sub another sensor for its own awareness so that it can react if the temperature is too hot. However, it was found that the voltage controller board also has a temperature sensor and an auto shutoff that can be controlled by the hardware monitor on the motherboard desktop screen so this component was removed from Sanka.</br>
+							</p><p class="center"><u>Hard Drive</u></br>
+							</p><center><img src="{{f:30380182}}"></center></br><p>
+							The crucial 128g solid state hard drive stores all of the programs that the motherboard uses. Without this memory, the motherboard and CPU would have no where to store programs and other necessary information for running and operating the sub. This memory interfaces with the motherboard and the voltage controller board.</br>
+							</p><p class="center"><u>Motor Controller</u></br>
+							</p><center><img src="{{f:30380195}}"></center></br><p>
+							The motor controller is the interface between the motherboard and the motor thrusters that move the sub. there are six motor controllers, one for each engine that are connected to a usb hub and then to the motherboard. The motor controllers are also connected directly to the twelve volt power strip. The CPU and motherboard then interface the with the motor controllers which then turn the motor thrusters on and off to control the subs movement. The motor controllers are pololu-jrk-12V motor controllers.</br>
+							</p><p class="center"><u>Motor Thrusters</u></br>
+							</p><center><img src="{{f:30380177}}"></center></br><p>
+							Sanka is controlled by six SeaBotix-BTD-150 motor thrusters. These motor thrusters allow Sanka to control itself and move around in three dimensions in the water. Two of the thrusters are pointed horizontally side to side, two vertically and two from front to back. These thrusters are essential to the function of the sub and are connected to the motor controllers which control when they turn on and off.</br>
+							</p><p class="center"><u>Home Made Logic Board</u></br>
+							</p><center><img src="{{f:30380188}}"></center></br><p>
+							The home made logic board allows the arduino to power the pneumatics. This board interfaces with the pneumatics and the arduino and serves as a switching board to each of the four pneumatic valves using relays</br>
+							</p><p class="center"><u>Cameras</u></br>
+							</p><center><img src="{{f:30380165}}"></center></br><p>
+							The Sanka uses two external cameras that connect to the motherboard using the USB 3.0 ports. The top camera is a Flea3 that is housed in a waterproof case. The bottom camera is a microsoft HD life cam studio camera. These cameras allow the sub to control itself based on its surroundings using a visual interface. the cameras can be used to find colors and accurately shoot torpedoes. These cameras allow Sanka to find and complete missions and are essential to the sub.</br>
+							All of these components interface with each other to make Sanka functional and able to carry out its purpose. These components must be able to interface flawlessly with each other in order for the sub to properly function. Without the electrical components, the sub would just be a useless chassis.</br>
+							
+							
+							</p>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							
+								<h1>Software</br></h1>
+								<p>The RoboSub uses the Microsoft Robotics Development Studio (MRDS). The main motivation for choosing this was to help provide structure and organization to the complex software required for an autonomous robot. It is built on the C# language and programmed best with Visual Studio. This studio handles all of the necessary multi-threading so that as a team we can concentrate on writing the subroutines, and not have to worry about how everything is going to be able to run simultaneously.</br>
+								The portion of MRDS that handles this is called the Concurrency Coordination Runtime (CCR). MRDS is built on top of the .NET framework, and uses the C# language. Each "class" file as it is called in Java is referred to as a "service" in MRDS. </br>
+								All code is written and compiled using Visual Studio, but to organize how the services interact, a utility which is part of MRDS called the DSS Manifest Editor is used. DSS stands for Distributed Software Services, and is the second major portion of MRDS. This allows the processing to occur on multiple cores, or even multiple computers across a network! This multi-processor feature is not necessary for our application, but it is an inseparable part of MRDS.</br> 
+								There are XML comments within each service, these are necessary, as the DSS Manifest Editor is actually just a way to edit the XML manifests that tell the services how to interact. A key part of the interactions between the different services is the C# concept of "Subscribing." One object will publish an event, which other objects subscribe to. This way, an object only needs to pay attention to its own concerns, and will respond appropriately only when certain events happen. </br>
+								Along with the C# code, Two additional pieces of software that the RoboSub relies upon for operation are RoboRealm and Arduino code. The Arduino microprocessor acts as a way for the computer’s USB interface to communicate with the depth pressure sensor and the pneumatic valves. The arduino code is comprised of only one file which can be viewed and edited in the Arduino environment, which is open-source. </br>
+								The RoboRealm program is the final piece of the necessary software, and its used as to processes raw images sent from the camera via USB 3.0. After processing the image to identify the location and shape of objects, this information is sent to the C# code via a TCP socket. RoboRealm is the only third-party program in the RoboSub which must be purchased (Other than VisualStudio which is free to students.) We will keep using RoboRealm as it provides solid visual processing for us. </br>
+								</p><center><img src="{{f:30380203}}"></center></br><p>
+								The software block diagram above should be shown in full-page format.
+								This solid lines and boxes in the diagram display how the various project files are arranged within the DSS Manifest Editor, showing the relationship between each block of programming.
+								For instance, the Mission Planner project directly relies on both the Vision and Movement projects, and the Movement relies on the Pressure Sensor and IMU, while the Dashboard controls access the Mission Planner, Movement, and Pressure Sensor projects.
+								Dashed lines and blocks show where the software communicates with other programs (such as RoboRealm) or with the hardware.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="body">
+			<div class="wrapper clearfix">
+				<p class="footnote">
+                    © Copyright © 2013. Montana State University all rights reserved</br>
+                    Having problems viewing this page? Try Google Chrome <a href="http://www.google.com\chrome">here</a>!
+                </p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
