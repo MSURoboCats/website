@@ -1,0 +1,78 @@
+{
+  "name": "robosub-website",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "./robosub-website/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/robosub-website"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "robosub-website:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "robosub-website:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "robosub-website:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "preview": {
+      "executor": "@nx/vite:preview-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "robosub-website:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "robosub-website:build:development"
+        },
+        "production": {
+          "buildTarget": "robosub-website:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["coverage/robosub-website"],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "../coverage/robosub-website"
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["./robosub-website/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "robosub-website:build"
+      }
+    }
+  },
+  "tags": []
+}

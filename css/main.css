@@ -1,0 +1,388 @@
+/*-------------------------------------------------------------------
+    1. Imports
+-------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+/*-------------------------------------------------------------------
+    2. Full Document tags
+-------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+}
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+body {
+    color: white;
+    /* sky color*/
+    background:radial-gradient(ellipse at center, rgba(255,254,234,1) 20%, rgba(255,254,234,1) 25%, #B7E8EB 100%);
+}
+
+
+
+/*-------------------------------------------------------------------
+    3. Header
+-------------------------------------------------------------------*/
+a {
+    text-decoration : none;
+}
+nav{
+    margin:0;
+    padding:0;
+}
+
+/*I don't know how tf this mess of code works,
+but it does so don't you dare fucking touch it lol.*/
+
+.nav-item{
+    /*padding: 1.5rem;*/
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-inline: 1.5rem;
+    box-sizing: border-box;
+    /*border: 2px solid grey;*/
+
+}
+.nav-item>a{
+    font-size: 1.6rem;
+    color: black;
+    font-weight : bold;
+    background-image: linear-gradient(
+            to right,
+            #54b3d6,
+            #54b3d6 50%,
+            #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.nav-item>a:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item>a:after{
+    content: '';
+    transform: scaleX(0);
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(154,125,49,1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.nav-item>a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#logo{
+    width: 30%;
+    min-width: 300px;
+    max-width: 350px;
+    margin-left: 2rem;
+}
+
+#nav-bar{
+    background-color: #00ACC1;
+}
+
+/*-------------------------------------------------------------------
+    4. Main Page
+-------------------------------------------------------------------*/
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    /*font-size: 5rem;*/
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem   ;
+}
+
+.section2{
+    width: 100%;
+    background-color: #01495e;
+}
+
+.section3{
+    background-color: #013a4b;
+}
+
+.section4{
+    background-color: #012b38;
+}
+
+main {
+    /*margin: 2rem;*/
+    padding: 2rem 3rem 3rem 3rem;
+    width: 100%;
+    text-align: center;
+    background-color: #015871;
+}
+
+/*-------------------------------------------------------------------
+    5. About Section
+-------------------------------------------------------------------*/
+
+#about{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video_container{
+    height :60vh;
+}
+iframe{
+    width: 80%;
+    height: 100%;
+}
+
+
+
+/*-------------------------------------------------------------------
+    6. Teams Section
+-------------------------------------------------------------------*/
+#our-teams{
+    padding: 2rem;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team{
+    width: 25%;
+    min-width: 200px;
+    padding: 1rem;
+}
+.team-logo{
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.blue_bt{
+    font-size: 2rem;
+    color: white;
+    font-weight : bold;
+    background-image: linear-gradient(
+            to right,
+            #54b3d6,
+            #54b3d6 50%,
+            #ffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.blue_bt:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.blue_bt:after{
+    content: '';
+    transform: scaleX(0);
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(154,125,49,1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.blue_bt:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/*logo Colors*/
+#software-logo{
+    filter: invert(64%) sepia(54%) saturate(616%) hue-rotate(128deg) brightness(94%) contrast(105%);
+}
+#mechanical-logo{
+    filter: invert(24%) sepia(37%) saturate(315%) hue-rotate(157deg) brightness(91%) contrast(89%);
+}
+#electrical-logo{
+    filter: invert(14%) sepia(95%) saturate(3698%) hue-rotate(266deg) brightness(83%) contrast(109%);
+}
+#business-logo{
+    filter: invert(63%) sepia(65%) saturate(2784%) hue-rotate(114deg) brightness(105%) contrast(90%);
+}
+/*-------------------------------------------------------------------
+    7. Wave Animation
+-------------------------------------------------------------------*/
+#title-spacer{
+    width: 100%;
+    height: 15%;
+}
+.spacer{
+    width: 100%;
+    height: 400px;
+}
+.space-grotesk-semiBold {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ocean {
+    height: 45%;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index: -1;
+    background: #015871;
+}
+
+.wave {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+
+}
+
+.wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+@keyframes swell {
+    0%, 100% {
+        transform: translate3d(0,-25px,0);
+    }
+    50% {
+        transform: translate3d(0,5px,0);
+    }
+}
+
+/*-------------------------------------------------------------------
+    8. Footer
+-------------------------------------------------------------------*/
+
+.deep-ocean{
+    background: linear-gradient(#015871, #3a3a3a);
+    height: 480px;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    min-height: 200px;
+    height: 25%;
+    color: white;
+    background-color: #3a3a3a;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .row {
+    padding: 5% 0 0 0;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    /*box-sizing: border-box;*/
+}
+
+
+.footer_menu ul{
+    justify-content: center;
+    list-style: none;
+}
+
+#social-media-ul{
+    display: flex;
+}
+
+footer li{
+    margin: .5rem;
+}
+
+footer .col-md-4 {
+    height: 60%;
+}
+
+footer .container {
+    height: 100%;
+    margin: 0;
+    max-height: 350px;
+    width: 100vw;
+    padding: 5% 2.5% 5% 2.5%;
+}
+
+.col-md-4 .footer_logo{
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-4 {
+    justify-content: center;
+    text-align: center;
+}
