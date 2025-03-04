@@ -353,7 +353,19 @@ main .custom_card2{
 #img2 a img {
     width: 100%;
 }
+/*--ADD IDS FOR IMAGE FILES --*/
+#img3{
+    padding: 2rem 0;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#img4{
 
+}
+#img5{
+
+}
 
 /*-------------------------------------------------------------------
     8. Footer
