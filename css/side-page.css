@@ -152,6 +152,7 @@ main h2{
     font-size: 3rem;
 }
 .desc {
+    display: block;
     margin-top: 2rem;
 }
 
@@ -229,21 +230,24 @@ main .custom_card2{
     color: black;
     /*border: 1px solid #44E3D2;*/
     /*border-radius: 30px;*/
-    min-height: 400px;
+    min-height: 500px;
     max-height: 600px;
     box-shadow: 20px 20px 30px rgba(0,0,0, 0.02);
     background-size: cover;
     background-position: center;
 }
 .custom_card2 img{
-    width: 90%;
+    width: 100%;
+    height: 100%;
+
     box-sizing: border-box;
     background-color: whitesmoke;
     padding: 2rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
     max-height: 420px;
+    max-width: 420px;
     border-radius: 50%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /*-------------------------------------------------------------------
@@ -429,4 +433,5 @@ footer .container {
     justify-content: center;
     text-align: center;
 }
+
 
